@@ -1,0 +1,32 @@
+{
+  "error": {
+    "error_code": 5,
+    "error_msg": "User authorization failed: invalid access_token (4).",
+    "request_params": [
+      {
+        "key": "v",
+        "value": "5.154"
+      },
+      {
+        "key": "lang",
+        "value": "0"
+      },
+      {
+        "key": "user_ids",
+        "value": "155323128"
+      },
+      {
+        "key": "fields",
+        "value": "bdate, city"
+      },
+      {
+        "key": "method",
+        "value": "users.get"
+      },
+      {
+        "key": "oauth",
+        "value": "1"
+      }
+    ]
+  }
+}

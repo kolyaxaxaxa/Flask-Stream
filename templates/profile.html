@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block title %}Мой профиль{% endblock %}
+
+<div class="container">
+    {% block body %}
+    <h1>Владелец профиля {{ first_name }} {{ last_name }}</h1>
+    <div class="row">
+        <div class="col-sm-5"></div>
+        <div class="col-sm-7">
+            <h4>Дата рождения: {{ bdate }}</h4>
+            <h4>Город: {{ city }}</h4>
+        </div>
+    </div>
+
+
+    {% endblock %}
+</div>
